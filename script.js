@@ -8,13 +8,16 @@ const finalMessage = document.getElementById('final-message');
 const figureParts = document.querySelectorAll('.figure-part');
 
 const words = [
-  'яблоко',
-  'апельсин',
-  'банан',
-  'ананас',
-  'физика',
-  'химия',
-  'география',
+  'apple',
+  'avocado',
+  'banana',
+  'grapefruit',
+  'grapes',
+  'lemon',
+  'pineapple',
+  'orange',
+  'watermelon',
+  'cherry',
 ];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
